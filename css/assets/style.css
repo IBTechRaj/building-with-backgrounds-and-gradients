@@ -91,7 +91,7 @@ input[name="search"] {
   }
 .main-body{
 width: 100%;
-background-image: url("img/hero.jpg");
+background-image: url("../../img/hero.jpg");
 background-repeat:no-repeat;
 background-size: 100%;
 position: relative;
@@ -143,7 +143,8 @@ h3 a:hover{
 	margin-top: 100px;
 }
 .model1, .model2, .model3, .model4{	
-	float: left;
+  float: left;
+  width: 25%;
 }
 
 
@@ -156,15 +157,16 @@ h3 a:hover{
 }
 .footer-text{
 	margin: 0 auto;
-    max-width: 1050px;
+  /* max-width: 1050px; */
 }
 .left{
 	clear: both;
 	float: left;
-    width: 49%;
+  width: 49%;
 	text-align: left;
 	font-size: 12px;
-	margin-top:5px;
+  margin-top:5px;
+  padding-left: 5%;
 }
 .left a{
 	text-decoration: none;
@@ -174,7 +176,8 @@ h3 a:hover{
     float: right;
     width: 51%;
 	text-align: right;
-	margin-top:5px;
+  margin-top:5px;
+  padding-right: 5%;
 }
 .right li{
 	list-style: none;
@@ -190,7 +193,8 @@ h3 a:hover{
 	clear: both;
 	line-height: 2;
 	font-size: 12px;
-	margin-bottom: 20px;
+  margin-bottom: 20px;
+  padding-left: 5%;
 }
 .bottom a{
 	text-decoration: none;
